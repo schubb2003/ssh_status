@@ -42,9 +42,9 @@ user_pass = args.sp
 ssh_enable = args.st
 set_duration = args.dt
 if set_duration == None:
-	enable_duration = args.dt
-else:
 	enable_duration = "00:15:00"
+else:
+	enable_duration = set_duration
 
 def main():
     # Web/REST auth credentials build authentication
