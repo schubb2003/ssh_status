@@ -41,7 +41,7 @@ def main():
     url = "https://" + mvip_ip + "/json-rpc/10.3"
 
 	# Various payload params in one liner
-	# payload = "{\n\t\"method\": \"EnableClusterSsh\",\n    \"params\": {\n        \"duration\": "00:15:00 "\n    },\n    \"id\": 1\n}"
+	# payload = "{\n\t\"method\": \"GetClusterSshInfo\",\n    },\n    \"id\": 1\n}"
 
 	# payload in JSON multi-line
 	payload = "{" + \
